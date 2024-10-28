@@ -1,0 +1,11 @@
+BullMQ 
+-> BullMQ é uma biblioteca de fila de tarefas prioritárias do Node.js apoiada pelo Redis, criada para robustez e facilidade de uso. Ela é frequentemente usada para processar tarefas ou trabalhos que podem ser executados independentemente do fluxo principal do seu aplicativo. Por exemplo, enviar notificações por e-mail ou processar imagens. Os principais recursos incluem processamento de trabalhos com base em prioridade, filas com taxa limitada, trabalhos atrasados ​​e muito mais.
+
+RabbitMQ
+-> O RabbitMQ, por outro lado, é um broker de mensagens robusto e completo, que oferece suporte a vários protocolos de mensagens e oferece alta disponibilidade e configurações de implantação distribuída. Ele é frequentemente usado em arquiteturas de sistema que exigem roteamento sofisticado, clustering e durabilidade confiável de mensagens, como microsserviços ou arquiteturas sem servidor.
+
+Kafka
+-> Apache Kafka é uma plataforma de streaming distribuída de código aberto que pode ser usada como um agente de mensagens. Originalmente projetado pelo LinkedIn, o Kafka foi criado para streaming de eventos de alto rendimento, tolerante a falhas e escalável. As principais características do Kafka incluem:
+Armazenamento baseado em log: O Kafka armazena mensagens como logs, o que permite o processamento de mensagens de alta taxa de transferência e baixa latência.
+Escalabilidade: Kafka pode facilmente escalar horizontalmente adicionando mais corretores a um cluster.
+Processamento de fluxo: Kafka tem suporte embutido para processamento de fluxo usando a biblioteca Kafka Streams, permitindo o processamento em tempo real e transformação de mensagens.
